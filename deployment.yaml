@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: flask-test-app
-          image: antonyjames1996/flask-app:latest
+          image: antonyjames1996/flask-app:v2
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
