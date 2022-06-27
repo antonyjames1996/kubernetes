@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: flask-test-app
-          image: docker.io/antonyjames1996/flask-app
+          image: antonyjames1996/flask-app:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
